@@ -5,3 +5,11 @@ metadata:
   labels:
     env:dev
 spec:
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginxapp
+  labels:
+    env:dev
+spec:
