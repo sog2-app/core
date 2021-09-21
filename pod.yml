@@ -5,6 +5,7 @@ metadata:
   labels:
     env:dev
 spec:
+  conainers:
 ---
 apiVersion: v1
 kind: Service
